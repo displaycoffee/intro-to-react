@@ -6,13 +6,13 @@ const themePath = './assets/';
 const webpPathConfig = {
 	path: path.resolve(__dirname),
 	src: {
-		js: themePath + 'src/js/App.js',
+		js: themePath + 'src/js/bundle.js',
 		css: themePath + 'src/scss/styles.scss',
 		fonts: themePath + 'src/fonts/[name][ext]',
 		images: themePath + 'src/images/[name][ext]',
 	},
 	dist: {
-		js: themePath + 'dist/js/App.js',
+		js: themePath + 'dist/js/bundle.js',
 		css: themePath + 'dist/css/styles.css',
 		fonts: themePath + 'dist/fonts/[name][ext]',
 		images: themePath + 'dist/images/[name][ext]',
